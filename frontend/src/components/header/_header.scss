@@ -1,0 +1,29 @@
+.header {
+  position: relative;
+  margin: 5%;
+
+  img {
+    block-size: 100%;
+    inline-size: 100%;
+    aspect-ratio: 1.38 / 1;
+  }
+  h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2rem;
+    font-family: "roboto";
+  }
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.4rem;
+    font-family: "roboto";
+    text-align: center;
+  }
+}
