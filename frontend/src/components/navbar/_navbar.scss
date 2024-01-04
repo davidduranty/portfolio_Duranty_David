@@ -1,0 +1,10 @@
+.navbar {
+  @include center;
+  block-size: 100px;
+
+  p {
+    font-family: "roboto";
+    margin-left: 2rem;
+    color: black;
+  }
+}
