@@ -1,6 +1,7 @@
 .navbar {
   @include center;
   block-size: 100px;
+  background: rgba(149, 149, 209, 0.618);
 
   p {
     font-family: "roboto";
