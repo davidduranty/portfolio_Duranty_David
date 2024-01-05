@@ -24,7 +24,7 @@ function Skills() {
         <p>Soft Skills</p>
         <li>Sens du collectif</li>
         <li>Autonomie</li>
-        <li>Goût de l'effort</li>
+        <li>Goût de l effort</li>
         <li>Apprentissage actif</li>
       </div>
     </div>
