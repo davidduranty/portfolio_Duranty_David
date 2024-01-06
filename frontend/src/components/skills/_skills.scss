@@ -1,0 +1,38 @@
+.container {
+  background: rgba(236, 223, 223, 0.589);
+  .content-about {
+    margin: 0 10px;
+    background: rgba(149, 149, 209, 0.618);
+
+    h1 {
+      margin: 20px 0;
+    }
+    p {
+      margin-bottom: 20px;
+      text-align: center;
+      font-family: "poppins";
+    }
+  }
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    .front-skills-container,
+    .back-skills-container,
+    .tool-skills-container,
+    .more-skills-container {
+      margin: 20px;
+      block-size: 100%;
+      inline-size: 40%;
+      flex-direction: column;
+    }
+    p {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      font-family: "roboto";
+    }
+    li {
+      font-family: "poppins";
+      font-size: 0.8rem;
+    }
+  }
+}
