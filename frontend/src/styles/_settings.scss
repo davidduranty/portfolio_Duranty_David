@@ -18,3 +18,11 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+button {
+  margin: 20px 0;
+  inline-size: 30%;
+  block-size: 40px;
+  border-radius: 10px;
+  background: rgba(149, 149, 209, 0.618);
+  border: none;
+}
