@@ -9,7 +9,7 @@
   .projects-container {
     display: flex;
     flex-direction: column;
-    margin: 40px;
+    // margin: 40px;
     .project-df {
       @include center;
       flex-direction: column;
@@ -19,6 +19,23 @@
       block-size: 100%;
       inline-size: 100%;
       aspect-ratio: 1 / 1.1;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .projects {
+    margin: 0 10%;
+    background: rgba(158, 217, 246, 0.527);
+    h1 {
+      margin-top: 20px;
+    }
+    .projects-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+      .project {
+        max-width: 80%;
+      }
     }
   }
 }
