@@ -13,6 +13,7 @@ function About() {
           <br />
           nihil optio dolor nostrum similique iusto asperiores. Sunt, at.
         </p>
+        <button>Télécharger mon CV</button>
       </div>
       <div className="img-about">
         <img className="img" src="moi.jpg" alt="photo david duranty" />
