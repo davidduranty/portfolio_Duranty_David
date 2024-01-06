@@ -1,0 +1,19 @@
+.footer-container {
+  background: rgba(149, 149, 209, 0.618);
+  @include center;
+  flex-direction: column;
+  h3 {
+    text-align: center;
+  }
+  .icon-footer {
+    inline-size: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50%;
+    img {
+      height: 30px;
+      margin: 0 30px;
+    }
+  }
+}
