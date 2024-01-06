@@ -1,5 +1,5 @@
 .projects {
-  margin: 20px 0;
+  margin: 20px 0 0 0;
   display: flex;
   flex-direction: column;
   h1 {
@@ -15,6 +15,7 @@
       flex-direction: column;
     }
     .project {
+      border-radius: 20px 20px 0 0;
       block-size: 100%;
       inline-size: 100%;
       aspect-ratio: 1 / 1.1;
