@@ -20,11 +20,13 @@
 }
 button {
   margin: 20px 0;
-  inline-size: 40%;
+  inline-size: 30%;
   block-size: 40px;
   border-radius: 10px;
   background: rgba(158, 217, 246, 0.527);
   border: none;
+  cursor: pointer;
+  box-shadow: 3px 2px 3px black;
 }
 
 p {
