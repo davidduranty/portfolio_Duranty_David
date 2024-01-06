@@ -1,16 +1,13 @@
-.container {
+.container-skills {
   background: rgba(236, 223, 223, 0.589);
-  .content-about {
+  .content-skills {
     margin: 0 10px;
-    background: rgba(149, 149, 209, 0.618);
 
     h1 {
       margin: 20px 0;
     }
     p {
       margin-bottom: 20px;
-      text-align: center;
-      font-family: "poppins";
     }
   }
   .skills-container {
@@ -34,5 +31,29 @@
       font-family: "poppins";
       font-size: 0.8rem;
     }
+  }
+}
+@media screen and (min-width: 768px) {
+  .container-skills {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 10%;
+    .skills-container {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 1fr 1fr;
+      .front-skills-container,
+      .back-skills-container,
+      .tool-skills-container,
+      .more-skills-container {
+        min-width: 100%;
+
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .content-skills {
   }
 }
