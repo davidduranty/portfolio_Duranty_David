@@ -1,18 +1,7 @@
-.container-about {
+.container {
   display: flex;
   flex-direction: column;
-  .content-about {
-    margin: 0 10px;
-    background: rgba(149, 149, 209, 0.618);
-
-    h1 {
-      margin: 20px 0;
-    }
-    p {
-      margin-bottom: 20px;
-      text-align: center;
-    }
-  }
+  background: rgba(236, 223, 223, 0.589);
   .img-about {
     aspect-ratio: 1.38 / 1;
     border: 10px solid #f1f1f1;
