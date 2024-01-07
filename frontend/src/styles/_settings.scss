@@ -20,13 +20,15 @@
 }
 button {
   margin: 20px 0;
-  inline-size: 30%;
+  width: 100%;
+  padding: 10px 20px;
   block-size: 40px;
   border-radius: 10px;
   background: rgba(158, 217, 246, 0.527);
   border: none;
   cursor: pointer;
   box-shadow: 3px 2px 3px black;
+  font-family: "roboto";
 }
 
 p {

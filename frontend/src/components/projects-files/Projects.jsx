@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Projects() {
   return (
     <div className="projects">
@@ -8,21 +10,27 @@ function Projects() {
          "
         >
           <img className="project" src="wild-social.png" alt="Projet 1" />
-          <button>Wild social</button>
+          <Link to="/project1">
+            <button className="btn">Wild social</button>
+          </Link>
         </div>
         <div
           className="project-2 project-df
          "
         >
           <img className="project" src="studio.png" alt="Projet 2" />
-          <button>Studio Gihbli</button>
+          <Link to="/project2">
+            <button className="btn">Studio Gihbli</button>
+          </Link>
         </div>
         <div
           className="project-3 project-df
          "
         >
           <img className="project" src="birdies.png" alt="Projet-3" />
-          <button>Birdies</button>
+          <Link to="/project3">
+            <button className="btn">Birdies</button>
+          </Link>
         </div>
       </div>
     </div>
