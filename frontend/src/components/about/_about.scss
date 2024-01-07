@@ -4,6 +4,7 @@
   background: rgba(236, 223, 223, 0.589);
   .img-about {
     aspect-ratio: 1.38 / 1;
+    @include center;
 
     .img {
       block-size: 100%;
