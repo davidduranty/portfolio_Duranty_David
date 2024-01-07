@@ -21,6 +21,7 @@
       block-size: 100%;
       inline-size: 40%;
       flex-direction: column;
+      border: 5px solid rgb(123, 121, 121);
     }
     p {
       margin-bottom: 10px;
@@ -46,14 +47,18 @@
       .back-skills-container,
       .tool-skills-container,
       .more-skills-container {
-        min-width: 100%;
+        min-width: 53%;
+        height: auto;
+        border-radius: 10px;
+        p {
+          text-align: center;
+        }
 
         li {
           width: 100%;
+          padding-left: 10px;
         }
       }
     }
-  }
-  .content-skills {
   }
 }
