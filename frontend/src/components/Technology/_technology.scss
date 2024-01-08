@@ -1,0 +1,16 @@
+.title-tech {
+  margin-top: 20px;
+}
+.container-tech {
+  min-width: 100%;
+  min-height: 200px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+
+  .project-tech {
+    p {
+      padding-bottom: 10px;
+    }
+  }
+}
