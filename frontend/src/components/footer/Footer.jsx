@@ -8,9 +8,11 @@ function Footer() {
         <Link to="https://github.com/davidduranty">
           <img src="github.png" alt="" />
         </Link>
-        <li>
-          <a href="mailto:chrisdavd@gmail.com">Email</a>
-        </li>
+
+        <a href="mailto:chrisdavd@gmail.com" target="_blank" rel="noreferrer">
+          <img src="email.png" alt="image email" />
+        </a>
+
         <Link to="https://www.linkedin.com/in/david-duranty/">
           <img src="linkedin.png" alt="" />
         </Link>
