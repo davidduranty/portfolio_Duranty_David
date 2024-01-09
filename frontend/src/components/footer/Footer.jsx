@@ -5,7 +5,7 @@ function Footer() {
     <div className="footer-container">
       <h3>David Duranty</h3>
       <div className="icon-footer">
-        <Link to="https://github.com/davidduranty">
+        <Link to="https://github.com/davidduranty" target="_blank">
           <img src="github.png" alt="" />
         </Link>
 
@@ -13,7 +13,7 @@ function Footer() {
           <img src="email.png" alt="image email" />
         </a>
 
-        <Link to="https://www.linkedin.com/in/david-duranty/">
+        <Link to="https://www.linkedin.com/in/david-duranty/" target="_blank">
           <img src="linkedin.png" alt="" />
         </Link>
       </div>
