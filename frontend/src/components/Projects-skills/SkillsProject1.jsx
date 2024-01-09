@@ -1,4 +1,8 @@
+import { Link } from "react-router-dom";
+import CV_David from "../../pages/CV_David";
+
 function SkillsProject1() {
+  const filePath = "/" + `cv.pdf`;
   return (
     <div className="container-about">
       <div className="content-about">
@@ -13,7 +17,12 @@ function SkillsProject1() {
           <br />
           nihil optio dolor nostrum similique iusto asperiores. Sunt, at.
         </p>
-        <button>Télécharger mon CV</button>
+        <Link to={filePath} target="_blank">
+          <button>
+            Télécharger mon CV
+            <CV_David />
+          </button>
+        </Link>
       </div>
       <div className="img-about">
         <img

@@ -7,6 +7,7 @@ import Project2 from "./pages/Project2.jsx";
 import Project3 from "./pages/Project3.jsx";
 import "./styles/index.scss";
 import App from "./App.jsx";
+import CV_David from "./pages/CV_David.jsx";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
         element: <Project3 />,
       },
     ],
+  },
+  {
+    path: "/cv_david_duranty",
+    element: <CV_David />,
   },
 ]);
 
