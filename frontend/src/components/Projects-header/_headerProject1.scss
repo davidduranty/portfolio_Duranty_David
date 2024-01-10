@@ -6,9 +6,11 @@
 
   img {
     position: relative;
+    aspect-ratio: 1.38 / 1;
   }
   h1,
   p {
+    background: black;
     position: absolute;
     color: white;
   }
