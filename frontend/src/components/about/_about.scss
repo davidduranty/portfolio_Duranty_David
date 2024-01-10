@@ -1,15 +1,18 @@
 .container-about {
   .content-about {
+    padding: 0 30px;
     display: flex;
     flex-direction: column;
-    background: rgba(236, 223, 223, 0.589);
+    // background: rgba(236, 223, 223, 0.589);
     .img-about {
-      aspect-ratio: 1.38 / 1;
-      @include center;
+      // aspect-ratio: 1.38 / 1;
+      // @include center;
+      width: 30%;
+      background-size: cover;
+      object-fit: cover;
 
       .img {
-        block-size: 100%;
-        inline-size: 80%;
+        height: 200px;
       }
     }
   }
@@ -17,7 +20,7 @@
 @media screen and (min-width: 768px) {
   .container-about {
     align-items: center;
-    margin: 0 10%;
+    // margin: 0 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background: rgba(158, 217, 246, 0.527);
@@ -39,6 +42,7 @@
       img {
         max-width: 40%;
         max-height: 50%;
+        border-radius: 50px;
       }
     }
   }

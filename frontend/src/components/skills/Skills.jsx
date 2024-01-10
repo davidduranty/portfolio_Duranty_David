@@ -13,13 +13,14 @@ function Skills() {
         <div className="back-skills-container">
           <p>Back-end</p>
           <li>Express</li>
-          <li>Mysql</li>
+          <li>Sql</li>
           <li>Dbeaver</li>
         </div>
         <div className="tool-skills-container">
           <p>Outils</p>
           <li>Figma</li>
           <li>Trello</li>
+          <li>Scrum</li>
         </div>
         <div className="more-skills-container">
           <p>Soft Skills</p>

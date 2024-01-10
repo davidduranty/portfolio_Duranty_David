@@ -18,7 +18,7 @@ function SkillsProject3() {
           nihil optio dolor nostrum similique iusto asperiores. Sunt, at.
         </p>
         <Link to={filePath} target="_blank">
-          <button>
+          <button id="btn">
             Télécharger mon CV
             <CV_David />
           </button>
