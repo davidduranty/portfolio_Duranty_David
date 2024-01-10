@@ -5,18 +5,34 @@
   margin-bottom: 20px;
 
   img {
-    position: relative;
-    aspect-ratio: 1.38 / 1;
+    // aspect-ratio: 1.38 / 1;
+
+    width: 100%;
   }
   h1,
   p {
-    background: black;
-    position: absolute;
-    color: white;
+    color: black;
   }
-  h1 {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -235%);
+  // h1 {
+  //   top: 50%;
+  //   left: 50%;
+  //   transform: translate(-50%, -235%);
+  // }
+}
+@media screen and (min-width: 1000px) {
+  .project-info-container {
+    img {
+      width: 30%;
+    }
+    .project-title-container {
+      margin: 0 0 0 10%;
+      h1 {
+        font-size: 4em;
+      }
+      p {
+        text-align: center;
+        font-size: 2.5em;
+      }
+    }
   }
 }

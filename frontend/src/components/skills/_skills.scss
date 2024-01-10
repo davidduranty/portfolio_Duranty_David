@@ -13,6 +13,7 @@
   .skills-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     .front-skills-container,
     .back-skills-container,
     .tool-skills-container,
@@ -38,9 +39,10 @@
   .container-skills {
     display: grid;
     grid-template-columns: 50% 50%;
-    margin: 0 10%;
+    // margin: 0 10%;
     .skills-container {
       display: grid;
+      row-gap: 20px;
       grid-template-columns: 50% 50%;
       grid-template-rows: 1fr 1fr;
       .front-skills-container,
@@ -50,6 +52,7 @@
         min-width: 53%;
         height: auto;
         border-radius: 10px;
+        margin: 0 auto;
         p {
           text-align: center;
         }
@@ -58,6 +61,11 @@
           width: 100%;
           padding-left: 10px;
         }
+      }
+    }
+    .content-skills {
+      h1 {
+        text-align: center;
       }
     }
   }
