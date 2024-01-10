@@ -3,6 +3,10 @@ function TechnologyProject3() {
     <>
       <h1 className="title-tech">Les technologies utilisées</h1>
       <div className="container-tech">
+        <div className="time">
+          <p>Durée</p>
+          <p>2 mois</p>
+        </div>
         <div className="project-tech">
           <p className="text-title">Front-end</p>
           <li>Sass</li>
