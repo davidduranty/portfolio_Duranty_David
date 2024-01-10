@@ -3,9 +3,9 @@ function TechnologyProject1() {
     <>
       <h1 className="title-tech">Les technologies utilisées</h1>
       <div className="container-tech">
-        <div className="time">
-          <p>Durée</p>
-          <p>2 semaines</p>
+        <div className="project-tech">
+          <p className="text-title">Durée</p>
+          <li>2 semaines</li>
         </div>
         <div className="project-tech">
           <p className="text-title">Front-end</p>
