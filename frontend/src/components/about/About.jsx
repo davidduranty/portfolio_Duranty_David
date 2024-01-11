@@ -17,15 +17,19 @@ function About() {
           <br />
           nihil optio dolor nostrum similique iusto asperiores. Sunt, at.
         </p>
-        <Link to={filePath} target="_blank">
+        <Link className="link-btn" to={filePath} target="_blank">
           <button id="btn">
             Télécharger mon CV
             <CV_David />
           </button>
         </Link>
       </div>
-      <div className="img-about">
-        <img className="img" src="moi.jpg" alt="photo david duranty" />
+      <div className="img-about profil">
+        <img
+          className="img profile-img"
+          src="moi.jpg"
+          alt="photo david duranty"
+        />
       </div>
     </div>
   );

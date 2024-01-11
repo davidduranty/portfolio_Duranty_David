@@ -5,10 +5,7 @@ function Projects() {
     <div className="projects">
       <h1>Mes Projets</h1>
       <div className="projects-container">
-        <div
-          className="project-1 project-df
-         "
-        >
+        <div className="project-1 project-df">
           <img className="project" src="wild-social.png" alt="Projet 1" />
           <Link to="/project1">
             <button className="btn">Wild social</button>
