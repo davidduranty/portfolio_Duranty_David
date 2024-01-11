@@ -33,14 +33,16 @@ function Skills() {
       <div className="content-skills">
         <h1>Mes compétences</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-          architecto, ea ex nobis quam labore nemo. Tenetur, quo sit optio totam
-          iusto eius. Ad vero voluptate corporis repudiandae laudantium dolore
-          nemo, magnam enim cum mollitia, id alias delectus deleniti soluta sed{" "}
-          <br />
-          <br />
-          <br />
-          nihil optio dolor nostrum similique iusto asperiores. Sunt, at.
+          Ma maîtrise des langages front-end tels que HTML et CSS, combinée à ma
+          capacité à concevoir des interfaces utilisateur conviviales à l aide d
+          outils comme Figma, garantit un maquettage de qualité. <br /> Sur le
+          plan du développement back-end, j ai découvert Express, offrant des
+          solutions performantes et extensibles pour répondre aux besoins de l
+          application. MySQL assure la gestion efficace des bases de données,
+          garantissant la sécurité et la rapidité des opérations. <br /> La
+          gestion de projets occupe une place centrale dans ma méthodologie de
+          travail. J utilise Trello pour organiser les tâches, faciliter la
+          collaboration au sein de l équipe, et assurer le respect des délais.
         </p>
       </div>
     </div>

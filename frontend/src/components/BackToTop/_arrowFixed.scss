@@ -23,11 +23,9 @@
     transition: 0.5s ease-in-out;
   }
   span {
-    width: 5rem;
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 5.1rem;
+    height: 4.7rem;
+    @include center;
     transform: rotate(90deg);
     border-radius: 50%;
     overflow: hidden;
