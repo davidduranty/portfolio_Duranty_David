@@ -4,6 +4,7 @@ function Footer() {
   return (
     <div className="footer-container">
       <h3>David Duranty</h3>
+      <p className="email">chrisdavd@gmail.com</p>
       <div className="icon-footer">
         <Link to="https://github.com/davidduranty" target="_blank">
           <img src="github.png" alt="" />

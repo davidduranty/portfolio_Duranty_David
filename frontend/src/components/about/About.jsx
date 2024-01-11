@@ -8,14 +8,10 @@ function About() {
       <div className="content-about">
         <h1>A propos</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-          architecto, ea ex nobis quam labore nemo. Tenetur, quo sit optio totam
-          iusto eius. Ad vero voluptate corporis repudiandae laudantium dolore
-          nemo, magnam enim cum mollitia, id alias delectus deleniti soluta sed{" "}
-          <br />
-          <br />
-          <br />
-          nihil optio dolor nostrum similique iusto asperiores. Sunt, at.
+          Après une formation développeur fullstack à la Wild Code School, Je me
+          lance dans le monde de la Tech pour intégrer une entreprise. Je
+          recherche une alternance en Réact Js / Node Js à partir de février
+          2024.
         </p>
         <Link className="link-btn" to={filePath} target="_blank">
           <button id="btn">

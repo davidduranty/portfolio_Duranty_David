@@ -34,14 +34,14 @@
     h1 {
       margin-bottom: 20px;
     }
-    .img-about {
-      @include center;
-      border: none;
-      margin: 5% 0;
-      img {
-        min-width: 350px;
-        height: 350px;
-      }
+  }
+  .img-about {
+    @include center;
+    border: none;
+    margin: 5% 0;
+    img {
+      min-width: 350px;
+      height: 350px;
     }
   }
 }
