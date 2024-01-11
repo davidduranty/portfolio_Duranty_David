@@ -4,18 +4,15 @@ import CV_David from "../../pages/CV_David";
 function SkillsProject2() {
   const filePath = "/" + `cv.pdf`;
   return (
-    <div className="container-about">
-      <div className="content-about">
+    <div className="container-about-project">
+      <div className="content-about-project">
         <h1>A propos</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-          architecto, ea ex nobis quam labore nemo. Tenetur, quo sit optio totam
-          iusto eius. Ad vero voluptate corporis repudiandae laudantium dolore
-          nemo, magnam enim cum mollitia, id alias delectus deleniti soluta sed{" "}
-          <br />
-          <br />
-          <br />
-          nihil optio dolor nostrum similique iusto asperiores. Sunt, at.
+          Le projet avait pour but de créer un site statique avec le framework
+          Réact Js en faisant appel à une API pour traiter les réponses. Cette
+          exercice à permis d aller plus loin dans la gestion du projet. Tout
+          ceci a donné l occasion de se rendre compte de la puissance de ce
+          framework.
         </p>
         <Link to={filePath} target="_blank">
           <button id="btn">
@@ -24,8 +21,12 @@ function SkillsProject2() {
           </button>
         </Link>
       </div>
-      <div className="img-about">
-        <img className="img" src="studio.png" alt="photo site studio Gihbli" />
+      <div className="img-about-project">
+        <img
+          className="img-project"
+          src="studio.png"
+          alt="photo site studio Gihbli"
+        />
       </div>
     </div>
   );

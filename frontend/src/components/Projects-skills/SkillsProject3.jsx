@@ -4,8 +4,8 @@ import CV_David from "../../pages/CV_David";
 function SkillsProject3() {
   const filePath = "/" + `cv.pdf`;
   return (
-    <div className="container-about">
-      <div className="content-about">
+    <div className="container-about-project">
+      <div className="content-about-project">
         <h1>A propos</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
@@ -24,9 +24,9 @@ function SkillsProject3() {
           </button>
         </Link>
       </div>
-      <div className="img-about">
+      <div className="img-about-project">
         <img
-          className="img"
+          className="img-project"
           src="birdies.png"
           alt="photo site recette cuisine"
         />

@@ -4,10 +4,8 @@
   min-height: 200px;
   margin-bottom: 20px;
 
-  img {
-    // aspect-ratio: 1.38 / 1;
-
-    width: 100%;
+  .img-info {
+    width: 60%;
   }
   h1,
   p {
@@ -19,19 +17,24 @@
   //   transform: translate(-50%, -235%);
   // }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .project-info-container {
-    img {
-      width: 30%;
+    .img-info {
+      width: 40%;
     }
     .project-title-container {
-      margin: 0 0 0 10%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
       h1 {
-        font-size: 4em;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 2em;
       }
       p {
         text-align: center;
-        font-size: 2.5em;
+        font-size: 1.5em;
       }
     }
   }

@@ -19,8 +19,7 @@
     .tool-skills-container,
     .more-skills-container {
       margin: 20px;
-      block-size: 100%;
-      inline-size: 40%;
+      padding: 10px;
       flex-direction: column;
       border: 5px solid rgb(123, 121, 121);
     }
