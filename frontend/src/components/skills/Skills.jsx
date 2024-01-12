@@ -1,6 +1,6 @@
 function Skills() {
   return (
-    <div className="container-skills">
+    <div className="container">
       <div className="skills-container">
         <div className="front-skills-container">
           <p>Front-end</p>

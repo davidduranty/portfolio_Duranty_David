@@ -2,6 +2,8 @@
   margin: 20px 0 0 0;
   display: flex;
   flex-direction: column;
+  background: rgba(158, 217, 246, 0.527);
+
   h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -9,15 +11,16 @@
   }
   .projects-container {
     display: flex;
-    flex-direction: column;
-    // margin: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
     .project-df {
       @include center;
       flex-direction: column;
     }
     .project {
       border-radius: 20px;
-      max-width: 50%;
+      min-width: 80%;
       max-height: 200px;
     }
   }
@@ -28,16 +31,15 @@
     background: rgba(158, 217, 246, 0.527);
     h1 {
       margin-top: 20px;
-      text-align: center;
     }
     .projects-container {
-      border-radius: 1px solid red;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 20px;
       .project-df {
         .project {
-          max-width: 100%;
+          max-width: 60%;
+          min-height: 350px;
         }
       }
     }
