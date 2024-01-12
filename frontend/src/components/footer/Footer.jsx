@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="footer-container">
+    <div className="container">
       <h3>David Duranty</h3>
       <p className="email">chrisdavd@gmail.com</p>
       <div className="icon-footer">

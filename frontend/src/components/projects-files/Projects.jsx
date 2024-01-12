@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div className="container">
       <h1>Mes Projets</h1>
       <div className="projects-container">
         <div className="project-1 project-df">
