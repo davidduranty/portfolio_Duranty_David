@@ -26,13 +26,17 @@
   padding-inline: 12px;
 }
 button {
-  margin: 20px 0;
-  padding: 10px 30px;
+  // margin: 80px 0;
+  padding: 5px 30px;
   block-size: 40px;
   background: rgba(158, 217, 246, 0.527);
   border: none;
   cursor: pointer;
   font-family: "roboto";
+  overflow: hidden;
+}
+Link {
+  border: 2px solid red;
 }
 
 p {
