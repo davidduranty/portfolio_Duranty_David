@@ -7,7 +7,7 @@ function Projects() {
       <div className="projects-container">
         <div className="projects-ccontainer-cards">
           <div className="project-1 project-df">
-            <img className="project" src="wild-social.png" alt="Projet 1" />
+            <img className="project" src="wildsocial.png" alt="Projet 1" />
           </div>
           <div className="btn-link">
             <Link to="/project1">

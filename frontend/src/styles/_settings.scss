@@ -7,6 +7,8 @@
   src: url(../assets/fonts/Roboto-Regular.ttf);
 }
 
+$primary-color: rgb(85, 61, 179);
+
 @mixin center {
   display: flex;
   justify-content: center;
@@ -24,17 +26,17 @@
   max-width: 1200px;
   margin-inline: auto;
   padding-inline: 12px;
-  border: 2px solid red;
 }
 button {
   border-radius: 3px;
   padding: 5px 30px;
   block-size: 40px;
-  background: rgba(158, 217, 246, 0.527);
+  background: $primary-color;
   border: none;
   cursor: pointer;
   font-family: "lato";
   overflow: hidden;
+  color: white;
 }
 Link {
   border: 2px solid red;
