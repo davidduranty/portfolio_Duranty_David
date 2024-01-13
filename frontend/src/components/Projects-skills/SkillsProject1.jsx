@@ -30,6 +30,8 @@ function SkillsProject1() {
             src="wildsocial.png"
             alt="photo site wild social"
           />
+        </div>
+        <div className="img-about-project-add">
           <img src="capture.png" alt="" />
         </div>
       </div>
