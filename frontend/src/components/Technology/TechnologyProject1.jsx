@@ -1,29 +1,35 @@
 function TechnologyProject1() {
   return (
-    <div className="container-tech">
+    <div className="container">
       <h1 className="title-tech">Les technologies utilisées</h1>
       <div className="tech-grid">
-        <div className="project-tech">
-          <p className="text-title">Durée</p>
-          <ul>
+        <div className="container-boxes">
+          <div className="project-tech">
+            <p className="text-title">Durée</p>
+          </div>
+          <div className="ul">
             <li>2 semaines</li>
-          </ul>
+          </div>
         </div>
-        <div className="project-tech">
-          <p className="text-title">Front-end</p>
-          <ul>
+        <div className="container-boxes">
+          <div className="project-tech">
+            <p className="text-title">Front-end</p>
+          </div>
+          <div className="ul">
             <li>Html 5</li>
             <li>Css / Sass</li>
             <li>Javascript</li>
             <li>Github</li>
-          </ul>
+          </div>
         </div>
-        <div className="project-tech">
-          <p className="text-title">Outils</p>
-          <ul>
+        <div className="container-boxes">
+          <div className="project-tech">
+            <p className="text-title">Outils</p>
+          </div>
+          <div className="ul">
             <li>Figma</li>
             <li>Trello</li>
-          </ul>
+          </div>
         </div>
       </div>
     </div>
