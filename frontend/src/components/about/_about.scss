@@ -9,6 +9,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    p {
+      font-family: "lato";
+      padding-bottom: 20px;
+    }
 
     .link-btn {
       display: flex;
@@ -44,6 +48,7 @@
     }
     h1 {
       margin-bottom: 20px;
+      font-family: "lato";
     }
   }
   .img-about-profil {
