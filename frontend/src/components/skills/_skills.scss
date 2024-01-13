@@ -10,7 +10,7 @@
   .back-skills-container,
   .tool-skills-container,
   .more-skills-container {
-    width: 280px;
+    width: 250px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -26,15 +26,16 @@
     color: white;
   }
   li {
+    line-height: 25px;
     padding: 0 0 0 5px;
     font-family: "lato";
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: white;
   }
 }
 
 .content-skills {
-  padding: 80px 0 80px 5px;
+  padding: 0px 20px 80px;
   background: rgb(85, 61, 179);
   h1 {
     padding-left: 5px;
