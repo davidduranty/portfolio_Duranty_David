@@ -8,15 +8,15 @@ function Footer() {
         <p className="email">chrisdavd@gmail.com</p>
         <div className="icon-footer">
           <Link to="https://github.com/davidduranty" target="_blank">
-            <img src="githubwhite.png" alt="" />
+            <img src="github.png" alt="" />
           </Link>
 
           <a href="mailto:chrisdavd@gmail.com" target="_blank" rel="noreferrer">
-            <img src="emailwhite.png" alt="image email" />
+            <img src="Letter.png" alt="image email" />
           </a>
 
           <Link to="https://www.linkedin.com/in/david-duranty/" target="_blank">
-            <img src="linkedinwhite.png" alt="" />
+            <img src="linkedin.png" alt="" />
           </Link>
         </div>
       </div>

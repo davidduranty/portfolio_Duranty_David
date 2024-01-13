@@ -14,17 +14,20 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+
     border: 5px solid rgb(123, 121, 121);
     padding: 30px 60px 30px 0;
   }
   p {
+    padding: 0 0 0 5px;
     padding-bottom: 30px;
     font-size: 1.2rem;
-    font-family: "roboto";
+    font-family: "lato";
     color: white;
   }
   li {
-    font-family: "poppins";
+    padding: 0 0 0 5px;
+    font-family: "lato";
     font-size: 1.2rem;
     color: white;
   }
@@ -34,11 +37,17 @@
   padding: 80px 0 80px 5px;
   background: rgb(85, 61, 179);
   h1 {
+    padding-left: 5px;
     margin: 20px 0;
     color: white;
+    font-family: "lato";
   }
   p {
+    letter-spacing: 1px;
+    padding-left: 5px;
     color: white;
+    font-family: "lato";
+    line-height: 25px;
   }
 }
 @media screen and (min-width: 768px) {
