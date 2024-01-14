@@ -1,8 +1,25 @@
 import { Link } from "react-router-dom";
 import CV_David from "../../pages/CV_David";
+import { useEffect } from "react";
 
 function About() {
   const filePath = "/" + `cv.pdf`;
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 200) {
+        document.querySelector(".content-about").classList.add("visible");
+      }
+    });
+  }, []);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 300) {
+        document.querySelector(".img-about-profil").classList.add("visibleImg");
+      }
+    });
+  }, []);
+
   return (
     <div className="container">
       <div className="container-about">
