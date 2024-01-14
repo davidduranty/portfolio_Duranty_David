@@ -24,15 +24,18 @@ function SkillsProject1() {
             </button>
           </Link>
         </div>
-        <div className="img-about-project">
-          <img
-            className="img-project"
-            src="wildsocial.png"
-            alt="photo site wild social"
-          />
-        </div>
-        <div className="img-about-project-add">
-          <img src="capture.png" alt="" />
+
+        <div className="container-img-project">
+          <div className="img-about-project">
+            <img
+              className="img-project"
+              src="wildsocial.png"
+              alt="photo site wild social"
+            />
+          </div>
+          <div className="img-about-project-add">
+            <img src="capture.png" alt="" />
+          </div>
         </div>
       </div>
     </div>

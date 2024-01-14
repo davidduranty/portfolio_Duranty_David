@@ -5,7 +5,7 @@
   padding-inline: 12px;
   display: flex;
   justify-content: center;
-  height: 80px;
+  padding: 50px 0;
 
   align-items: center;
   .link {
@@ -14,7 +14,7 @@
     p {
       font-family: "lato";
       font-weight: bold;
-      color: black;
+      color: $primary-color;
     }
   }
 }
