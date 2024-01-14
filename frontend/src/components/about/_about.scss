@@ -6,11 +6,16 @@
   padding: 80px 0;
   .content-about {
     width: 50%;
+    transform: translateX(-600px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 500px;
-
+    transition: 2s ease-in-out;
+    &.visible {
+      transform: none;
+      transition: 2s ease-in-out;
+    }
     p {
       font-family: "lato";
       padding-bottom: 20px;
@@ -23,10 +28,16 @@
     }
   }
   .img-about-profil {
+    transform: translateX(600px);
     display: flex;
     justify-content: center;
     width: 60%;
     padding: 30px 0;
+    transition: 2s ease-in-out;
+    &.visibleImg {
+      transform: none;
+      transition: 2s ease-in-out;
+    }
 
     .profile-img {
       background-size: cover;
