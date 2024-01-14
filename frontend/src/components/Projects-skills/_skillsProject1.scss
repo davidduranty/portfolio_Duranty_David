@@ -10,14 +10,17 @@
     h1 {
       padding-left: 5px;
       font-family: "lato";
+      color: $primary-color;
     }
     p {
       padding-left: 5px;
       font-family: "lato";
       line-height: 25px;
+      color: $primary-color;
     }
   }
   .btn-project {
+    width: 60%;
     padding: 50px 25px 50px 0;
   }
   .img-about-project,
