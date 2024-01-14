@@ -1,41 +1,48 @@
 function TechnologyProject3() {
   return (
-    <>
-      <div className="container-tech">
-        <h1 className="title-tech">Les technologies utilisées</h1>
-        <div className="tech-grid">
+    <div className="container">
+      <h1 className="title-tech">Les technologies utilisées</h1>
+      <div className="tech-grid">
+        <div className="container-boxes">
           <div className="project-tech">
             <p>Durée</p>
-            <ul>
+            <div className="ul">
               <li>2 mois</li>
-            </ul>
+            </div>
           </div>
+        </div>
+        <div className="container-boxes">
           <div className="project-tech">
             <p className="text-title">Front-end</p>
-            <ul>
-              <li>Sass</li>
-              <li>Réact Js</li>
-            </ul>
           </div>
+          <div className="ul">
+            <li>Sass</li>
+            <li>Réact Js</li>
+          </div>
+        </div>
+        <div className="container-boxes">
           <div className="project-tech">
             <p className="text-title">Back-end</p>
-            <ul>
-              <li>Express Js</li>
-              <li>Postman</li>
-              <li>Mysql</li>
-            </ul>
           </div>
+          <div className="ul">
+            <li>Express Js</li>
+            <li>Postman</li>
+            <li>Mysql</li>
+          </div>
+        </div>
+
+        <div className="container-boxes">
           <div className="project-tech">
             <p className="text-title">Outils</p>
-            <ul>
-              <li>Figma</li>
-              <li>Trello</li>
-              <li>Github</li>
-            </ul>
+          </div>
+          <div className="ul">
+            <li>Figma</li>
+            <li>Trello</li>
+            <li>Github</li>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 export default TechnologyProject3;

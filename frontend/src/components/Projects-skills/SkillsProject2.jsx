@@ -15,6 +15,8 @@ function SkillsProject2() {
             ceci a donné l occasion de se rendre compte de la puissance de ce
             framework.
           </p>
+        </div>
+        <div className="btn-project">
           <Link to={filePath} target="_blank">
             <button id="btn">
               Télécharger mon CV
@@ -26,12 +28,12 @@ function SkillsProject2() {
           <div className="img-about-project">
             <img
               className="img-project"
-              src="studio.png"
+              src="ghibli-capture1.png"
               alt="photo site studio Gihbli"
             />
           </div>
           <div className="img-about-project-add">
-            <img src="capture.png" alt="" />
+            <img src="capture-ghibli1.png" alt="" />
           </div>
         </div>
       </div>
