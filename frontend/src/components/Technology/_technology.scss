@@ -48,17 +48,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container-tech {
-    width: 100%;
-    display: grid;
-    grid-column: 1fr 1fr 1fr;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .container-tech {
-    .title-tech {
-      font-size: 6rem;
-      margin: 0 20%;
+  .tech-grid {
+    display: flex;
+    flex-direction: row;
+    .container-boxes {
+      min-height: 200px;
     }
   }
 }
