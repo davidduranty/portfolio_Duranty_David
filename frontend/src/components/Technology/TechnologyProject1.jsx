@@ -1,7 +1,31 @@
+import { useEffect } from "react";
+
 function TechnologyProject1() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const skillsBoxesElement = document.querySelector(".title");
+      const imgProjectElement = document.querySelector(".tech-grid");
+
+      if (window.scrollY > 500) {
+        skillsBoxesElement.classList.add("visible");
+      }
+
+      if (window.scrollY > 600) {
+        imgProjectElement.classList.add("visibleImg");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div className="container">
-      <h1 className="title-tech">Les technologies utilisées</h1>
+      <div className="title">
+        <h1 className="title-tech">Les technologies utilisées</h1>
+      </div>
       <div className="tech-grid">
         <div className="container-boxes">
           <div className="project-tech">

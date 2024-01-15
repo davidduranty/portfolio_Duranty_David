@@ -1,0 +1,46 @@
+.content-skills {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 12px;
+  display: flex;
+  padding: 100px 0;
+  background: $primary-color;
+  flex-direction: column;
+  .title-content {
+    display: flex;
+    justify-content: start;
+    transform: translateX(-600px);
+    transition: 4s ease-in-out;
+    &.activeContent {
+      transform: none;
+      transition: 4s ease-in-out;
+    }
+    h1 {
+      padding-left: 10px;
+      margin: 20px 0;
+      color: white;
+      font-family: "lato";
+    }
+  }
+  .text {
+    letter-spacing: 1px;
+    padding-left: 10px;
+    color: white;
+    font-family: "lato";
+    line-height: 25px;
+    transform: translateX(1200px);
+    transition: 4s ease-in-out;
+    &.visibleContainer {
+      transform: none;
+      transition: 4s ease-in-out;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .content-skills {
+    h1 {
+      text-align: center;
+    }
+  }
+}

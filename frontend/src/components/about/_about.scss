@@ -12,19 +12,28 @@
     justify-content: center;
     min-height: 500px;
     transition: 2s ease-in-out;
-    &.visible1 {
+    &.active {
       transform: none;
       transition: 2s ease-in-out;
+    }
+    h1 {
+      color: white;
     }
     p {
       font-family: "lato";
       padding-bottom: 20px;
       line-height: 25px;
+      color: white;
     }
 
     .link-btn {
       display: flex;
       // justify-content: center;
+      #btn {
+        background: white;
+        color: $primary-color;
+        font-family: "lato";
+      }
     }
   }
   .img-about-profil {
@@ -34,7 +43,7 @@
     width: 60%;
     padding: 30px 0;
     transition: 2s ease-in-out;
-    &.visibleImg1 {
+    &.activeImg {
       transform: none;
       transition: 2s ease-in-out;
     }
@@ -57,7 +66,6 @@
 
     .content-about {
       width: 100%;
-      padding: 10%;
     }
     h1 {
       margin-bottom: 20px;
@@ -70,33 +78,6 @@
     margin: 5% auto;
     .profile-img {
       width: 700px;
-    }
-  }
-}
-@media screen and (max-width: 1000px) {
-  .container-about {
-    .content-about {
-      .img-about-profil {
-        .profile-img {
-          width: 30%;
-          max-height: 30%;
-          border-radius: 50px;
-        }
-      }
-    }
-  }
-}
-@media screen and (min-width: 1600px) {
-  .container-about {
-    .content-about {
-      .img-about-profil {
-        width: 200px;
-        .profile-img {
-          width: 30%;
-          max-height: 30%;
-          border-radius: 50px;
-        }
-      }
     }
   }
 }

@@ -5,7 +5,7 @@ function HeaderProject1() {
     <div className="project-info-container">
       <img className="img-info" src="baniere1.jpg" alt="" />
       <div className="project-title-container">
-        <h1>WILD SOCIAL</h1>
+        <h1 className="title-wild">WILD SOCIAL</h1>
         <p>Site d un réseau social</p>
       </div>
       <Link to="https://davidduranty.github.io/Wild-social/" target="_blank">
