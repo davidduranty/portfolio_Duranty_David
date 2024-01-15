@@ -1,9 +1,30 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function Projects() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const projectBoxesElement = document.querySelector(".title-h1");
+      const imgProjectElement = document.querySelector(".projects-container");
+
+      if (window.scrollY > 900) {
+        projectBoxesElement.classList.add("activeProject");
+      }
+
+      if (window.scrollY > 1000) {
+        imgProjectElement.classList.add("visibleProject");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div className="container">
-      <h1>Mes Projets</h1>
+      <h1 className="title-h1">Mes Projets</h1>
       <div className="projects-container">
         <div className="projects-ccontainer-cards">
           <div className="project-1 project-df">

@@ -1,12 +1,25 @@
-h1 {
+.title-h1 {
   padding-left: 5px;
   padding-top: 50px;
   margin-bottom: 20px;
   font-family: "lato";
+  color: $primary-color;
+  transform: translateX(-600px);
+  transition: 4s ease-in-out;
+  &.activeProject {
+    transform: none;
+    transition: 4s ease-in-out;
+  }
 }
 .projects-container {
   padding: 80px 0;
   display: flex;
+  transform: translateX(1200px);
+  transition: 4s ease-in-out;
+  &.visibleProject {
+    transform: none;
+    transition: 4s ease-in-out;
+  }
 
   justify-content: space-around;
   flex-wrap: wrap;

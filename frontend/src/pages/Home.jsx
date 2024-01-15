@@ -3,6 +3,7 @@ import About from "../components/about/About";
 import Header from "../components/header/Header";
 import Projects from "../components/projects-files/Projects";
 import Skills from "../components/skills/Skills";
+import Content from "../components/contentHome/Content";
 
 function Home() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function Home() {
       <Header />
       <About />
       <Skills />
+      <Content />
       <Projects />
     </div>
   );
