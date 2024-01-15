@@ -14,14 +14,14 @@
     p {
       font-family: "lato";
       font-weight: bold;
-      color: $primary-color;
+      color: white;
     }
     &::after {
       content: "";
       display: block;
       width: 0;
       height: 3px;
-      background: $primary-color;
+      background: white;
       transition: 0.5s ease-in-out;
     }
     &:hover::after {

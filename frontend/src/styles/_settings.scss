@@ -21,10 +21,16 @@ $primary-color: rgb(85, 61, 179);
   text-decoration: none;
   overflow-x: hidden;
 }
+.container-max,
 .container {
-  width: 100%;
-  max-width: 1200px;
   margin-inline: auto;
+  width: 100%;
+}
+.container-max {
+  max-width: 2800px;
+}
+.container {
+  max-width: 1200px;
   padding-inline: 12px;
 }
 button {
@@ -48,4 +54,8 @@ p {
 #btn {
   width: 200px;
   font-weight: bold;
+}
+
+.bg-purple {
+  background: $primary-color;
 }
