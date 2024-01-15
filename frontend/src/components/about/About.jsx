@@ -1,23 +1,29 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import CV_David from "../../pages/CV_David";
-import { useEffect } from "react";
 
 function About() {
   const filePath = "/" + `cv.pdf`;
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    const handleScrollAbout = () => {
+      const skillsBoxes = document.querySelector(".content-about");
+      const imgProject = document.querySelector(".img-about-profil");
+
       if (window.scrollY > 200) {
-        document.querySelector(".content-about").classList.add("visible");
+        skillsBoxes.classList.add("visible1");
       }
-    });
-  }, []);
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
+
       if (window.scrollY > 300) {
-        document.querySelector(".img-about-profil").classList.add("visibleImg");
+        imgProject.classList.add("visibleImg1");
       }
-    });
+    };
+
+    window.addEventListener("scroll", handleScrollAbout);
+
+    return () => {
+      window.removeEventListener("scroll", handleScrollAbout);
+    };
   }, []);
 
   return (
