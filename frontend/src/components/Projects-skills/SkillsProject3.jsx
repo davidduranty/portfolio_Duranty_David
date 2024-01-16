@@ -37,11 +37,14 @@ function SkillsProject3() {
             <div className="content-about-project">
               <h1>A propos</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-                architecto, ea ex nobis quam labore nemo. Tenetur, quo sit optio
-                totam iusto eius. Ad vero voluptate corporis repudiandae
-                laudantium dolore nemo, magnam enim cum mollitia, id alias
-                delectus deleniti soluta sed
+                Ce projet est en cours de production. L objectif est de créer
+                une application fonctionnelle de rectte de cuisine. La
+                bibliothèque React est utilisée côté Front-end. Du point de vue
+                Back-end, le framework Express est indispensable pour l
+                utilisation de la base de données avec Mysql. <br /> Ce projet
+                nécessite l emploi d une gestion de projet ici Trello. La
+                méthode agile est déployée avec l intégration de sprint qui
+                peuvent être reconduite chaque semaine.
               </p>
             </div>
             <div className="btn-project">

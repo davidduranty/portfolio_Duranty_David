@@ -17,7 +17,7 @@
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   transform: translateX(1200px);
   transition: 2s ease-in-out;
   &.activeContainer {
@@ -29,25 +29,25 @@
   .back-skills-container,
   .tool-skills-container,
   .more-skills-container {
-    width: 250px;
+    width: 160px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     border: 5px solid $primary-color;
-    padding: 30px 60px 30px 0;
+    padding: 10px 0 0 0;
   }
   p {
     padding: 0 0 0 5px;
     padding-bottom: 30px;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-family: "lato";
     color: $primary-color;
   }
   li {
     line-height: 25px;
-    padding: 0 0 0 5px;
+    padding: 0 0 0 8px;
     font-family: "lato";
-    font-size: 1rem;
+    font-size: 0.85rem;
     color: $primary-color;
   }
 }

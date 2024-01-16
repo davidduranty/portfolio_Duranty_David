@@ -31,7 +31,10 @@ function TechnologyProject3() {
           <div className="project-tech">
             <p>Durée</p>
             <div className="ul">
-              <li>2 mois</li>
+              <li>
+                2 mois <br /> por réaliser ce projets <br /> avec 2 autres
+                collaborateurs.
+              </li>
             </div>
           </div>
         </div>
@@ -50,7 +53,6 @@ function TechnologyProject3() {
           </div>
           <div className="ul">
             <li>Express Js</li>
-            <li>Postman</li>
             <li>Mysql</li>
           </div>
         </div>
@@ -63,6 +65,7 @@ function TechnologyProject3() {
             <li>Figma</li>
             <li>Trello</li>
             <li>Github</li>
+            <li>Postman</li>
           </div>
         </div>
       </div>

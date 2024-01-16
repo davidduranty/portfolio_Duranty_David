@@ -42,7 +42,7 @@ function Projects() {
           </div>
           <div className="btn-link">
             <Link className="btn" to="/project2">
-              <button>Studio Gihbli</button>
+              <button>Studio Ghibli</button>
             </Link>
           </div>
         </div>

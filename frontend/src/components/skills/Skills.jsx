@@ -32,20 +32,20 @@ function Skills() {
           <li>Html 5</li>
           <li>Css / Sass</li>
           <li>React Js</li>
-          <li>Node Js</li>
-          <li>Github</li>
         </div>
         <div className="back-skills-container">
           <p>Back-end</p>
           <li>Express</li>
           <li>Sql</li>
-          <li>Dbeaver</li>
+          <li>Node Js</li>
         </div>
         <div className="tool-skills-container">
           <p>Outils</p>
           <li>Figma</li>
           <li>Trello</li>
           <li>Scrum</li>
+          <li>Dbeaver</li>
+          <li>Github</li>
         </div>
         <div className="more-skills-container">
           <p>Soft Skills</p>

@@ -28,16 +28,25 @@ function Content() {
           <h1>Mes compétences</h1>
         </div>
         <p className="text">
-          Ma maîtrise des langages front-end tels que HTML et CSS, combinée à ma
-          capacité à concevoir des interfaces utilisateur conviviales à l aide d
-          outils comme Figma, garantit un maquettage de qualité. <br /> Sur le
-          plan du développement back-end, j ai découvert Express, offrant des
-          solutions performantes et extensibles pour répondre aux besoins de l
-          application. MySQL assure la gestion efficace des bases de données,
-          garantissant la sécurité et la rapidité des opérations. <br /> La
-          gestion de projets occupe une place centrale dans ma méthodologie de
-          travail. J utilise Trello pour organiser les tâches, faciliter la
-          collaboration au sein de l équipe, et assurer le respect des délais.
+          Voici un aperçu des principaux éléments de mon stack technologique :{" "}
+          <br />
+          HTML5 est ici pour structurer mes pages web, CSS pour styliser et
+          JavaScript pour ajouter des fonctionnalités interactives et
+          dynamiques. <br />
+          React est ma bibliothèque JavaScript préférée pour la construction d
+          interfaces utilisateur réactives et modulaires. <br />
+          Express est mon framework côté serveur pour Node.js. <br />
+          Pour la gestion des données, j utilise MySQL, une base de données
+          relationnelle. <br />
+          Trello est mon tableau de gestion de projet, où j organise mes tâches,
+          collabore sur mes idées et suis ma progression. C est un outil
+          précieux pour la gestion de projet agile. <br />
+          Figma est mon outil de conception collaboratif. Il me permet de créer
+          des maquettes. <br />
+          GitHub est ma plateforme de gestion de code source. j utilise Git pour
+          le contrôle de versions, et GitHub facilite la collaboration entre les
+          membres de l équipe, le suivi des modifications et la gestion des
+          problèmes.
         </p>
       </div>
     </div>
