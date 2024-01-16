@@ -5,7 +5,7 @@ function HeaderProject2() {
     <div className="project-info-container">
       <img className="img-info" src="ai.jpg" alt="image studio Ghibli" />
       <div className="project-title-container">
-        <h1>Studio Ghibli</h1>
+        <h1 className="title-wild">Studio Ghibli</h1>
         <p>Site de films du studio Gihbli</p>
       </div>
       <Link to="" target="_blank">
