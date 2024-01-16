@@ -5,7 +5,7 @@
   align-items: center;
   padding: 0 0 80px 0;
   .content-about {
-    width: 50%;
+    padding: 50px 10px;
     transform: translateX(-600px);
     display: flex;
     flex-direction: column;
@@ -30,8 +30,8 @@
       display: flex;
       // justify-content: center;
       #btn {
-        background: white;
-        color: $primary-color;
+        background: rgb(247, 158, 3);
+        color: white;
         font-family: "lato";
       }
     }
@@ -40,7 +40,7 @@
     transform: translateX(600px);
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 95%;
     padding: 30px 0;
     transition: 2s ease-in-out;
     &.activeImg {
@@ -77,7 +77,7 @@
     border: none;
     margin: 5% auto;
     .profile-img {
-      width: 700px;
+      padding: 30px;
     }
   }
 }

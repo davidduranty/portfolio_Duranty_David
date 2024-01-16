@@ -20,6 +20,7 @@ $primary-color: rgb(85, 61, 179);
   box-sizing: border-box;
   text-decoration: none;
   overflow-x: hidden;
+  font-family: "lato";
 }
 .container-max,
 .container {
@@ -37,7 +38,7 @@ button {
   border-radius: 3px;
   padding: 5px 30px;
   block-size: 40px;
-  background: $primary-color;
+  background: rgb(247, 158, 3);
   border: none;
   cursor: pointer;
   font-family: "lato";
@@ -48,9 +49,6 @@ Link {
   border: 2px solid red;
 }
 
-p {
-  font-family: "poppins";
-}
 #btn {
   width: 200px;
   font-weight: bold;

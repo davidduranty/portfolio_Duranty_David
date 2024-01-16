@@ -5,7 +5,7 @@
   bottom: 100px;
   right: 80px;
   border-radius: 50%;
-  font-size: 5rem;
+  font-size: 4rem;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.647);
   transition: 0.4s ease-in-out;
   cursor: pointer;
@@ -24,8 +24,8 @@
     transition: 0.5s ease-in-out;
   }
   span {
-    width: 5.1rem;
-    height: 4.7rem;
+    width: 5.4rem;
+    height: 4.6rem;
     @include center;
     transform: rotate(90deg);
     border-radius: 50%;
