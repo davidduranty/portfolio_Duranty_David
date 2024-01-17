@@ -1,9 +1,6 @@
-import { Link } from "react-router-dom";
-import CV_David from "../../pages/CV_David";
 import { useEffect } from "react";
 
 function SkillsProject2() {
-  const filePath = "/" + `cv.pdf`;
   useEffect(() => {
     const handleScroll = () => {
       const skillsBoxesElement = document.querySelector(
@@ -13,11 +10,11 @@ function SkillsProject2() {
         ".container-img-project"
       );
 
-      if (window.scrollY > 200) {
+      if (window.scrollY > 100) {
         skillsBoxesElement.classList.add("visible");
       }
 
-      if (window.scrollY > 300) {
+      if (window.scrollY > 150) {
         imgProjectElement.classList.add("visibleImg");
       }
     };
@@ -42,14 +39,6 @@ function SkillsProject2() {
                 gestion du projet. Tout ceci a donné l occasion de se rendre
                 compte de la puissance de ce framework.
               </p>
-            </div>
-            <div className="btn-project">
-              <Link to={filePath} target="_blank">
-                <button id="btn">
-                  Télécharger mon CV
-                  <CV_David />
-                </button>
-              </Link>
             </div>
           </div>
           <div className="container-img-project">
