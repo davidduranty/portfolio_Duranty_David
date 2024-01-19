@@ -5,6 +5,9 @@ import TechnologyProject2 from "../components/Technology/TechnologyProject2";
 
 function Project2() {
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 200) {
         document.querySelector(".arrow-fixed").classList.add("active");

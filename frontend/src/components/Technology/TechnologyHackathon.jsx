@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-function TechnologyProject1() {
+function TechnologyHackathon() {
   useEffect(() => {
     const handleScroll = () => {
       const skillsBoxesElement = document.querySelector(".title");
@@ -33,7 +33,7 @@ function TechnologyProject1() {
           </div>
           <div className="ul">
             <li>
-              2 semaines <br /> por réaliser ce projets <br /> avec 3 autres
+              3 jours <br /> por réaliser un projet <br /> avec 4 autres
               collaborateurs.
             </li>
           </div>
@@ -43,9 +43,16 @@ function TechnologyProject1() {
             <p className="text-title">Front-end</p>
           </div>
           <div className="ul">
-            <li>Html 5</li>
-            <li>Css / Sass</li>
-            <li>Javascript</li>
+            <li>Css</li>
+            <li>React Js</li>
+          </div>
+        </div>
+        <div className="container-boxes">
+          <div className="project-tech">
+            <p className="text-title">Back-end</p>
+            <div className="ul">
+              <li>Express Js</li>
+            </div>
           </div>
         </div>
         <div className="container-boxes">
@@ -54,7 +61,6 @@ function TechnologyProject1() {
           </div>
           <div className="ul">
             <li>Figma</li>
-            <li>Trello</li>
             <li>Github</li>
           </div>
         </div>
@@ -63,4 +69,4 @@ function TechnologyProject1() {
   );
 }
 
-export default TechnologyProject1;
+export default TechnologyHackathon;
