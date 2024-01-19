@@ -16,8 +16,11 @@ function Navbar() {
           <p style={{ "--i": 3 }}>Projet 2</p>
         </Link>
 
-        <Link className="link" to="project3">
+        <Link className="link" to="/project3">
           <p style={{ "--i": 4 }}>Projet 3</p>
+        </Link>
+        <Link className="link" to="/hackathon">
+          <p style={{ "--i": 5 }}>Hackathon 2</p>
         </Link>
       </div>
     </div>
