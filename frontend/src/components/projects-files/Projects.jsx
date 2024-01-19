@@ -26,7 +26,7 @@ function Projects() {
     <div className="container">
       <h1 className="title-h1">Mes Projets</h1>
       <div className="projects-container">
-        <div className="projects-ccontainer-cards">
+        <div className="projects-container-cards">
           <div className="project-1 project-df">
             <img className="project" src="wildsocial.png" alt="Projet 1" />
           </div>
@@ -36,7 +36,7 @@ function Projects() {
             </Link>
           </div>
         </div>
-        <div className="projects-ccontainer-cards">
+        <div className="projects-container-cards">
           <div className="project-2 project-df">
             <img className="project" src="ghibli-cap.png" alt="Projet 2" />
           </div>
@@ -46,7 +46,7 @@ function Projects() {
             </Link>
           </div>
         </div>
-        <div className="projects-ccontainer-cards">
+        <div className="projects-container-cards">
           <div
             className="project-3 project-df
          "
@@ -56,6 +56,19 @@ function Projects() {
           <div className="btn-link">
             <Link to="/project3">
               <button>Birdies</button>
+            </Link>
+          </div>
+        </div>
+        <div className="projects-container-cards">
+          <div
+            className="project-3 project-df
+         "
+          >
+            <img className="project" src="fragrance1.png" alt="Projet-3" />
+          </div>
+          <div className="btn-link">
+            <Link to="/hackathon">
+              <button>Fragrance</button>
             </Link>
           </div>
         </div>
