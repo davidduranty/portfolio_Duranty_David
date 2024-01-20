@@ -41,10 +41,10 @@ function SkillsHackathon() {
                 relever les défis techniques. Avec des itérations fréquentes et
                 des démonstrations, nous avons ajusté rapidement notre travail.
                 Grâce à notre engagement collectif, nous avons réussi à livrer
-                une application fonctionnelle, le but cette application
-                fonctionne été à travers des questions sur le genre de personne
-                concerné (Homme, Femme, No binary) et des questions sur des
-                senteurs. D&#39;en ressortir des propositions de parfums.
+                une application fonctionnelle, le but cette application été à
+                travers des questions sur le genre de personne concerné (Homme,
+                Femme, No binary) et des questions sur des senteurs, d&#39;en
+                ressortir des propositions de parfums.
               </p>
             </div>
           </div>
