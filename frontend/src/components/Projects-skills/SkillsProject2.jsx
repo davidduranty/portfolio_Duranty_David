@@ -34,10 +34,11 @@ function SkillsProject2() {
               <h1>A propos</h1>
               <p>
                 Le projet avait pour but de créer un site statique avec le
-                framework Réact Js en faisant appel à une API pour traiter les
+                framework React Js en faisant appel à une API pour traiter les
                 réponses. Cette exercice à permis d aller plus loin dans la
-                gestion du projet. Tout ceci a donné l occasion de se rendre
-                compte de la puissance de ce framework.
+                gestion du projet. <br /> <br /> Tout ceci a donné
+                l&#39;occasion de se rendre compte de la puissance de ce
+                framework.
               </p>
             </div>
           </div>

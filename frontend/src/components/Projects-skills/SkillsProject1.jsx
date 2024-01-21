@@ -33,13 +33,14 @@ function SkillsProject1() {
             <div className="content-about-project">
               <h1>A propos</h1>
               <p>
-                Ce projet d un réseau social permet de pouvoir se créer un
-                profil utilisateur afin de pouvoir accéder à l application. Le
-                HTML et CSS ont permi de créer un style de qualité. Grâce au
-                Javascript, on a la possibilité de liker ou desliker un post.
-                Egalement de pouvoir laisser un commentaire sur une actualité.
-                La consultaion des derniers messages sont accessibles. Cette
-                application est très fonctionnelle pour l utilisateur.
+                Ce projet d&#39;un réseau social permet de créer un profil
+                utilisateur pour accéder à l&#39;application. <br /> <br /> Le
+                HTML et le CSS ont permis de créer un style de qualité. Grâce au
+                JavaScript, on a la possibilité de liker ou disliker un post,
+                ainsi que de laisser un commentaire sur une actualité. <br />{" "}
+                <br /> La consultation des derniers messages est également
+                accessible. Cette application est très fonctionnelle pour
+                l&#39;utilisateur.
               </p>
             </div>
           </div>
