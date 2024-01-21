@@ -32,3 +32,9 @@
     overflow: hidden;
   }
 }
+@media screen and (max-width: 768px) {
+  .arrow-fixed {
+    right: 20px;
+    bottom: 50px;
+  }
+}

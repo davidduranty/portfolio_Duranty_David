@@ -42,9 +42,7 @@ function TechnologyProject2() {
           <div className="project-tech">
             <p className="text-title">Front-end</p>
             <div className="ul">
-              <li>Html 5</li>
               <li>Sass</li>
-              <li>Javascript</li>
               <li>Réact Js</li>
             </div>
           </div>
