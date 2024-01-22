@@ -34,10 +34,10 @@ function About() {
             <h1>A propos</h1>
             <p>
               Actuellement en formation de développeur web fullstack à la Wild
-              Code School, j&#39;ai développé de l&#39;autonomie, notamment
-              grâce à la méthode de cours inversés pratiquée. <br /> En effet,
-              en tant que salarié dans la fonction publique territoriale de
-              Bordeaux Métropole, j&#39;ai fait le choix d&#39;une reconversion
+              Code School, j&#39;ai acquis de l&#39;autonomie, notamment grâce à
+              la méthode de cours inversés pratiquée. <br /> En effet, en tant
+              que salarié dans la fonction publique territoriale de Bordeaux
+              Métropole, j&#39;ai fait le choix d&#39;une reconversion
               professionnelle en mars 2023. <br /> Après avoir accompli les
               démarches administratives nécessaires, j&#39;ai intégré la Wild
               Code School en septembre 2023. <br /> Cette formation me permet

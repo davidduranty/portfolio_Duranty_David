@@ -34,14 +34,16 @@ function SkillsProject3() {
               <h1>A propos</h1>
               <p>
                 Ce projet est en cours de production. L&#39;objectif est de
-                créer une application fonctionnelle de rectte de cuisine. <br />{" "}
+                créer une application fonctionnelle de recettes de cuisine.
                 <br />
-                La bibliothèque React est utilisée côté Front-end. Du point de
-                vue Back-end, le framework Express est indispensable pour l
-                &#39;utilisation de la base de données avec Mysql. <br /> <br />{" "}
-                Ce projet nécessite l&#39;emploi d une gestion de projet ici
+                <br />
+                La bibliothèque React est utilisée côté Front-end. <br /> Du
+                point de vue Back-end, le framework Express est indispensable{" "}
+                pour l&#39;utilisation de la base de données avec Mysql. <br />{" "}
+                <br />
+                Ce projet nécessite l&#39;emploi d&#39;une gestion de projet ici
                 Trello. La méthode agile est déployée avec l&#39;intégration de
-                sprint qui peuvent être reconduite chaque semaine.
+                sprint qui peut être reconduit chaque semaine.
               </p>
             </div>
           </div>
