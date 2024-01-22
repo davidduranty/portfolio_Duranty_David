@@ -9,7 +9,7 @@ function HeaderProject2() {
         <p>Site de films du studio Ghibli</p>
       </div>
       <Link
-        to="https://2023-09-js-bdx-p2-croissants.vercel.app"
+        to="https://2023-09-js-bdx-p2-croissants-qtrq0rbdx-daviddurantys-projects.vercel.app/"
         target="_blank"
       >
         <p className="btn-project">Studio Ghibli</p>
