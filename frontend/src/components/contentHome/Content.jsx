@@ -28,25 +28,20 @@ function Content() {
           <h1>Mes compétences</h1>
         </div>
         <p className="text">
-          Voici un aperçu des principaux éléments de mon stack technologique :{" "}
+          Vous trouverez ci-dessous un aperçu des principaux éléments de mon
+          stack technologique :
           <br />
-          HTML5 est ici pour structurer mes pages web, CSS pour styliser et
-          JavaScript pour ajouter des fonctionnalités interactives et
-          dynamiques. <br />
-          React est ma bibliothèque JavaScript préférée pour la construction d
-          interfaces utilisateur réactives et modulaires. <br />
-          Express est mon framework côté serveur pour Node.js. <br />
-          Pour la gestion des données, j utilise MySQL, une base de données
-          relationnelle. <br />
-          Trello est mon tableau de gestion de projet, où j organise mes tâches,
-          collabore sur mes idées et suis ma progression. C est un outil
-          précieux pour la gestion de projet agile. <br />
-          Figma est mon outil de conception collaboratif. Il me permet de créer
-          des maquettes. <br />
-          GitHub est ma plateforme de gestion de code source. j utilise Git pour
-          le contrôle de versions, et GitHub facilite la collaboration entre les
-          membres de l équipe, le suivi des modifications et la gestion des
-          problèmes.
+          CSS pour styliser et JavaScript pour ajouter des fonctionnalités
+          interactives et dynamiques. <br />
+          React, ma bibliothèque pour la construction d interfaces utilisateur
+          réactives et modulaires. <br />
+          Express, mon framework côté serveur pour Node.js. <br />
+          MySQL pour la gestion des données.
+          <br />
+          Trello, mon tableau de gestion de projet.
+          <br />
+          Figma, mon outil de conception collaboratif. <br />
+          GitHub est ma plateforme de gestion de code source.
         </p>
       </div>
     </div>
