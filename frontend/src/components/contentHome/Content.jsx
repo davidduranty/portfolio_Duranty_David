@@ -30,18 +30,18 @@ function Content() {
         <p className="text">
           Vous trouverez ci-dessous un aperçu des principaux éléments de mon
           stack technologique :
-          <br />
-          CSS pour styliser et JavaScript pour ajouter des fonctionnalités
+          <br /> <br />
+          - CSS pour styliser et JavaScript pour ajouter des fonctionnalités
           interactives et dynamiques. <br />
-          React, ma bibliothèque pour la construction d interfaces utilisateur
-          réactives et modulaires. <br />
-          Express, mon framework côté serveur pour Node.js. <br />
-          MySQL pour la gestion des données.
+          - React, ma bibliothèque pour la construction d&#39;interfaces
+          utilisateur réactives et modulaires. <br />
+          - Express, mon framework côté serveur pour Node.js. <br />
+          - MySQL pour la gestion des données.
           <br />
-          Trello, mon tableau de gestion de projet.
+          - Trello, mon tableau de gestion de projet.
           <br />
-          Figma, mon outil de conception collaboratif. <br />
-          GitHub est ma plateforme de gestion de code source.
+          - Figma, mon outil de conception collaboratif. <br />- GitHub est ma
+          plateforme de gestion de code source.
         </p>
       </div>
     </div>
