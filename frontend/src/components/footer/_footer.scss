@@ -1,0 +1,29 @@
+.footer {
+  margin-top: 30px;
+  background: $primary-color;
+  padding: 20px 0;
+  @include center;
+  flex-direction: column;
+  h3 {
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+    font-family: "lato";
+  }
+  .email {
+    margin: 20px 0;
+    color: white;
+    font-family: "lato";
+  }
+  .icon-footer {
+    inline-size: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 50%;
+    img {
+      height: 30px;
+      margin: 0 30px;
+    }
+  }
+}

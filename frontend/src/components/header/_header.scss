@@ -1,0 +1,47 @@
+.header {
+  position: relative;
+  width: 100%;
+  @include center;
+  img {
+    filter: brightness(50%);
+    height: 55vh;
+    min-width: 100%;
+    // aspect-ratio: 1.38 / 1;
+    background-size: cover;
+    object-fit: cover;
+    // background-position: center;
+  }
+  h1 {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.9rem;
+    font-family: "lato";
+  }
+  h2 {
+    position: absolute;
+    width: 60%;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #fff;
+    font-size: 1.4rem;
+    font-family: "lato";
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header {
+    text-align: center;
+    h1 {
+      width: 100%;
+      font-size: 4.5rem;
+    }
+    h2 {
+      font-size: 3.5rem;
+    }
+  }
+}

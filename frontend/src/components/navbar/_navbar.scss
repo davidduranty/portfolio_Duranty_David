@@ -1,0 +1,57 @@
+.navbar {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 12px;
+  @include center;
+  height: 100px;
+  align-items: center;
+  .link {
+    @include center;
+    flex-direction: column;
+    margin: 0 10px;
+
+    p {
+      font-size: 0.6rem;
+      display: inline-block;
+      font-family: "lato";
+      font-weight: bold;
+      color: white;
+      animation: nav 0.9s ease forwards;
+      animation-delay: calc(0.8s * var(--i));
+      opacity: 0;
+    }
+    &::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 8px;
+      margin: auto;
+      border-bottom: 3px solid rgb(247, 158, 3);
+      transition: 0.5s ease-in-out;
+    }
+    &:hover::after {
+      width: 100%;
+      transition: 0.5s ease-in-out;
+    }
+  }
+}
+@keyframes nav {
+  0% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 500px) {
+  .navbar {
+    .link {
+      p {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}

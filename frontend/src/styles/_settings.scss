@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "lato";
+  src: url(../assets/fonts/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: "roboto";
+  src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+
+$primary-color: rgb(85, 61, 179);
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  overflow-x: hidden;
+  font-family: "lato";
+}
+.container-max,
+.container {
+  margin-inline: auto;
+  width: 100%;
+}
+.container-max {
+  max-width: 2800px;
+}
+.container {
+  max-width: 1200px;
+  padding-inline: 12px;
+}
+button {
+  border-radius: 3px;
+  padding: 5px 30px;
+  block-size: 40px;
+  background: rgb(247, 158, 3);
+  border: none;
+  cursor: pointer;
+  font-family: "lato";
+  overflow: hidden;
+  color: white;
+}
+Link {
+  border: 2px solid red;
+}
+
+#btn {
+  width: 200px;
+  font-weight: bold;
+}
+
+.bg-purple {
+  background: $primary-color;
+}
