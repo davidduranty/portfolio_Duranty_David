@@ -33,7 +33,7 @@ function TechnologyProject1() {
           </div>
           <div className="ul">
             <li>
-              2 semaines <br /> por réaliser ce projets <br /> avec 3 autres
+              2 semaines <br /> pour réaliser ce projet <br /> avec 3 autres
               collaborateurs.
             </li>
           </div>

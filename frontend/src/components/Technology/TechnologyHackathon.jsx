@@ -33,7 +33,7 @@ function TechnologyHackathon() {
           </div>
           <div className="ul">
             <li>
-              3 jours <br /> por réaliser un projet <br /> avec 4 autres
+              3 jours <br /> pour réaliser un projet <br /> avec 4 autres
               collaborateurs.
             </li>
           </div>
