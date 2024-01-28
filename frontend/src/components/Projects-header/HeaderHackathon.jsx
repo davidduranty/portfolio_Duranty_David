@@ -12,7 +12,7 @@ function HeaderHackathon() {
         to="https://github.com/WildCodeSchool/tech-care/tree/dev"
         target="_blank"
       >
-        <p className="btn-project">Frangrance</p>
+        <p className="btn-project">Fragrance</p>
       </Link>
     </div>
   );
