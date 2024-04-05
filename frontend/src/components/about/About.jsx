@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import CV_David from "../../pages/CV_David";
+// import CV_David from "../../pages/CV_David";
 
 function About() {
-  const filePath = "/" + `CV___DURANTY_David.pdf`;
+  const filePath = "/" + `CV.DURANTY_David.pdf`;
 
   useEffect(() => {
     const handleScrollAbout = () => {
@@ -47,7 +47,7 @@ function About() {
             <Link className="link-btn" to={filePath} target="_blank">
               <button id="btn">
                 Télécharger mon CV
-                <CV_David />
+                {/* <CV_David /> */}
               </button>
             </Link>
           </div>
