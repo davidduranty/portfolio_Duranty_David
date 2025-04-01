@@ -22,6 +22,9 @@ function Navbar() {
         <Link className="link" to="/hackathon">
           <p style={{ "--i": 5 }}>Hackathon 2</p>
         </Link>
+        <Link className="link" to="/movie">
+          <p style={{ "--i": 6 }}>Movie Project</p>
+        </Link>
       </div>
     </div>
   );

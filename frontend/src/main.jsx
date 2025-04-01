@@ -9,6 +9,7 @@ import "./styles/index.scss";
 import App from "./App.jsx";
 import CV_David from "./pages/CV_David.jsx";
 import Hackathon from "./pages/Hackathon.jsx";
+import Movie from "./pages/Movie.jsx";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/hackathon",
         element: <Hackathon />,
+      },
+      {
+        path: "/movie",
+        element: <Movie />,
       },
     ],
   },

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 // import CV_David from "../../pages/CV_David";
 
 function About() {
-  const filePath = "/" + `CV_Duranty_David_.pdf`;
+  const filePath = "/" + `CV_David_Duranty.pdf`;
 
   useEffect(() => {
     const handleScrollAbout = () => {
