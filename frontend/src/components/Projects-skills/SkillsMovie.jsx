@@ -33,19 +33,16 @@ function SkillsMovie() {
             <div className="content-about-project">
               <h1>A propos</h1>
               <p>
-                Au cours de ce hackathon technologique, notre équipe de cinq
-                développeurs a créé une application web innovante en seulement
-                trois jours. <br /> Nous avons utilisé CSS et Figma pour le
-                design, React.js pour le développement front-end, et Express
-                (Node.js) pour le back-end. <br /> La collaboration étroite a
-                été essentielle pour relever les défis techniques. <br /> Grâce
-                à des itérations fréquentes et des démonstrations, nous avons
-                ajusté rapidement notre travail. <br /> Notre engagement
-                collectif nous a permis de livrer une application fonctionnelle.{" "}
-                <br /> L&#39;objectif de cette application était de, à travers
-                des questions sur le genre de la personne concernée (Homme,
-                Femme, Non-binaire) et des questions sur des senteurs, générer
-                des propositions de parfums.
+                Pour ce projet personnel, l'idée était de travailler de
+                nouvelles notions pour monter en compétences. Le framework
+                utilisé est Angular côté Frontend et Nest js côté Backend. Ceci
+                a permis l'acquisition de nouvelles fonctionnalités qui ouvrent
+                la relation client, serveur. En plus de ces langages, je me suis
+                servi Mikro Orm pour créer la relation bas de données.
+                L'utilisation de dBeaver pour la créattion de mes différentes
+                tables en PostgresSql. Et aussi, le support de Postman pour
+                tester mes différentes requêtes. Et pour finir, la mise en place
+                de test unitaires avec Jest.
               </p>
             </div>
           </div>
@@ -53,12 +50,12 @@ function SkillsMovie() {
             <div className="img-about-project">
               <img
                 className="img-project"
-                src="actors.png"
+                src="productor.png"
                 alt="photo site wild social"
               />
             </div>
             <div className="img-about-project-add">
-              <img src="selection.png" alt="" />
+              <img src="arrayMovie.png" alt="" />
             </div>
           </div>
         </div>
